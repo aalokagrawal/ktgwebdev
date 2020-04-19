@@ -1,0 +1,686 @@
+<!doctype htl><!doctype html>
+
+<html>
+<head>
+<title>Shopify</title>
+<meta charset="utf-8" />  
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />  
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+
+    *{
+	   margin:0;
+	   }
+
+
+
+    .navbar{
+	          margin:0;
+			 
+	         background-color:white;
+			 
+			 width:100%;
+			 border:2px black solid;
+			 border-radius:10px;
+			 color:green;
+			 position:fixed;
+			 z-index:200;
+			 
+			 }
+	body{
+         margin:0;
+		 padding:0;
+         }	
+    		
+    
+    .menu li{
+            	 margin:0;
+	          list-style:none;
+			  float:left;
+			  padding-left:1%;
+			  font-family:Arial, Helvetica, sans-serif;
+			  font-weight:bold;
+			  letter-spacing:1px;
+			  padding-right:1%;
+			  padding-top:10px;
+			  
+			 
+	}
+    
+    .menu a:hover{
+	      color:green;
+		  font-size:25px;
+	}
+	#search{
+	        padding-left:10px;
+			padding-top:10px;
+	
+	}
+	#logo{
+	float:left;}
+	.clear{
+	clear:left;
+	}
+	
+	
+	
+.intro{
+background-image:linear-gradient(
+                                  to right bottom,
+                                  rgba(126,213,111,0.6),
+                                   rgba(40,180,131,0.6)),
+url(background8.jpg);
+backgroung-size:cover;
+height:100vh;
+
+z-index:1;
+background-position:center;
+color:#9400D3;
+}
+.titlebox{
+letter-spacing:5px;
+position:absolute;
+top:60%;
+left:50%;
+transform:translate(-50%,-50%);
+position:right;
+}
+.titlemain{
+font-size:100px;
+font-strength:bold;
+animation-name: increasingsize;
+animation-duration:2s;
+}
+.titlesec{
+font-size:20px;
+font-strength:bold;
+letter-spacing:7px;
+animation-name: increasingsize;
+animation-duration:2s;
+}
+
+@keyframes increasingsize{
+                            from
+							{
+							  transform:translateX(-100px);
+							  color:red;
+							  }
+							  
+							  to
+							  {
+							   transform:translateX(0);
+							   color:#9400D3;
+							   }
+					    }		   
+
+    .btn{
+	      background-color:#9400D3;
+		  color:white;
+		  margin-top:10px;
+		  animation-name: increasingsize;
+animation-duration:2s;
+          font-weight:10000;
+		  }
+
+
+
+	
+	.btn:link,
+	.btn:visited{
+	              text-decoration:none;
+	              text-transform:uppercase;
+	              padding:15px 40px;
+	              display:inline-block;
+	              border-radius:100px;
+	              transition:all 0.2s;
+	}
+	.btn:hover{
+	             transform:translateY(-3px);
+				 box-shadow:0 10px 20px rgba(0,0,0,0.5);
+				 }
+	.btn:active{
+	             transform:translateY(-1px);
+				 box-shadow:0 5px 10px rgba(0,0,0,0.3);
+				 }
+	.comingsoon img{
+	                  height:90%;
+					  width:100%;
+                 }	
+	
+	.images{
+	        
+	         position:relative;
+			 margin-top:5%;
+			   }
+	.image1{
+	          box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+			  
+			  border-radius:10px;
+             position:relative;
+             top:15%;
+             left:45%;
+             transform:scale(0.8);
+              display:inline-block;			 
+			 
+			  } 
+			  
+		.image2{
+	          box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+			  
+			  border-radius:10px;
+             position:absolute;
+             top:65%;
+             left:35%;
+             transform:scale(0.8);		
+             display:inline-block;			 
+			  } 
+.image3{
+	          box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+			  
+			  border-radius:10px;
+             position:absolute;
+             top:65%;
+             left:55%;
+             transform:scale(0.8);	
+             display:inline-block;			 
+			  }			  
+	.image4{
+	          box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+			  display:inline-block;
+			  border-radius:10px;
+             position:absolute;
+             top:100%;
+             left:45%;
+             transform:scale(0.8);			 
+			  }
+	 .image1:hover{
+	             outline: 15px solid #9400D3;
+	             transform:translateY(-3px);
+				 transform:scale(1.1);
+				 box-shadow:0 10px 20px rgba(0,0,0,0.5);
+				 z-index:1;
+				 }
+	.image2:hover{
+	              outline: 15px solid #9400D3;
+	             transform:translateY(-3px);
+				 transform:scale(1.1);
+				 box-shadow:0 10px 20px rgba(0,0,0,0.5);
+				 z-index:1;
+				 }
+    .image3:hover{
+	             outline: 15px solid #9400D3;
+	             transform:translateY(-3px);
+				 transform:scale(1.1);
+				 box-shadow:0 10px 20px rgba(0,0,0,0.5);
+				 z-index:1;
+				 }
+    .image4:hover{
+	              outline: 15px solid #9400D3;
+	             transform:translateY(-3px);
+				 transform:scale(1.1);
+				 box-shadow:0 10px 20px rgba(0,0,0,0.5);
+				 z-index:1;
+				 }	
+				 
+				 
+	.comingsoon{ background-image:linear-gradient(
+                               to right,
+                               rgba(255,99,71,0.35),
+							   rgba(148,0,211,0.35));
+							  height:100vh;
+
+}	
+				 
+    .heading1{
+             letter-spacing:1px;
+             padding-top:10px;
+                  }  
+   .heading{ 
+   font-family:"Courier New",Courier,monospace;
+   color:black; 
+
+    margin-left:10px;
+            }
+    .heading:hover{
+                    transform:skewX(10deg);
+					box-shadow:0 7px 14px rgba(0,0,0,0.4);
+					display:inline-block;
+					 color:white;
+}		
+.para{
+       position:relative;
+	   top:-260px;
+	   font-size:25px;
+	   color:green;
+	   }
+	   .surprise{
+	   background-image:url("surprise.jpg");
+	   height:100vh;
+	   position:center;
+	   }
+	   
+	   .headings{
+	       font-family:"Courier New",Courier,monospace;
+		   background-image:linear-gradient(
+                               to right,
+                               rgba(255,99,71,1),
+							   rgba(148,0,211,1));
+							   display:inline-block;
+							   -webkit-background-clip:text;
+							   color:transparent;
+							   text-align:center;
+							   padding-left:40%;
+							   padding-top:5%;
+			}
+		.cards{
+		         position:relative;
+				 margin-top:5%;
+				 perspective:2000px;
+				 }
+
+.card_front{
+         background-color:red;
+         display:inline-block;
+		 height:60vh;
+		 margin-left:5%;
+        border:10px solid red;
+	     transition:all 2s;
+		 backface-visibility:hidden;
+		
+	   }
+	   
+.card1:hover .card_1front{
+               transform:rotateY(-180deg);
+			   
+			   }
+ .card_back{
+         background-color:green;
+         width:225px;
+		 height:60vh;
+		 margin-left:5%;
+        border:10px solid green;
+		transform:rotateY(180deg);
+	     transition:all 2s;
+		 backface-visibility:hidden;
+		
+	   }
+.card1:hover .card_1back{
+               transform:rotateY(0deg);
+			   }   
+.card_1front{
+ position:absolute;
+		 left:0;
+		 top:0;
+}
+.card_1back{
+ position:absolute;
+		 left:0;
+		 top:0;
+}		 
+.card_2front{
+position:absolute;
+left:30%;
+top:5%;
+} 
+.card_2back{
+position:absolute;
+left:30%;
+top:5%;
+}
+.card2:hover .card_2back{
+               transform:rotateY(0deg);
+			   }    
+.card2:hover .card_2front{
+               transform:rotateY(-180deg);
+			   
+			   }	
+.card_3front{
+position:absolute;
+left:65%;
+top:5%;
+} 
+.card_3back{
+position:absolute;
+left:65%;
+top:5%;
+}
+.card3:hover .card_3back{
+               transform:rotateY(0deg);
+			   }    
+.card3:hover .card_3front{
+               transform:rotateY(-180deg);
+			   
+			   }	
+
+
+.popup{
+         background-color:rgba(0,0,0,0.7);
+		 height:100vh;
+		 width:100%;
+		 position:fixed;
+		 top:0;
+		 left:0;
+		 z-index:9999;
+		 opacity:0;
+		 visibility:hidden;
+		 
+		 
+		 }
+		 .popup:target{
+		                opacity:1;
+						visibility:visible;
+						}
+.popupcontents{
+background-color:white;
+height:50vh;
+width:70%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+color:black;
+}		 
+
+.popupclose{
+font-size:50px;
+position:absolute;
+top:5%;
+right:5%;
+}
+#tcbtn{
+position:absolute;
+top:50%;
+left:25%;
+animation-name:none;
+}
+.surprise img
+{   height:50%;
+     width:90%;
+	 }
+
+.freqbought{
+background-image:linear-gradient(
+                               to right,
+                               rgba(255,99,71,0.35),
+							   rgba(148,0,211,0.35));
+							  height:100%;
+							  }
+.mbiheading{
+margin-bottom:20px;
+animation-name: increasingsize;
+animation-duration:2s;
+}
+    .mbiheading:hover{
+                     transform:scale(1.3);
+					 color:white;
+}	
+.mbimages
+{
+max-width:1200px;
+margin:auto;
+overflow:auto;
+padding-top:25px;
+
+}
+
+.gallery {
+margin:15px;
+padding-bottom:20px;
+float:left;
+
+}
+.gallery img{
+width:200px;
+height:200px;
+border:5px solid white;
+border-radius:100px;
+}
+.dec{
+text-align:center;
+}
+.checked{
+color:yellow;
+}
+         		 
+	   
+	   
+	   
+       			
+	</style>
+</head>
+<body>
+
+<div class="navbar">
+             <div id="logo">
+             <img src="images2.jpg" />
+             </div>
+ 
+         <div class="menu">
+          <ul >
+		 
+           <li><a href="#intro">Introduction</a></li>
+           <li><a href="#coming">Coming soon</a></li>
+           <li><a href="#surprise">Surprise!!</a></li>
+           <li><a href="#freqbought">Frequently bought</a></li>
+           <li><a href="#review">Reviews</a></li>
+           <li><a href="#addreview">Add a review</a></li>
+           <li><a href="#contact">Contact Us</a></li>
+          </ul>
+		  </div>
+		  <div id="search">
+		  <input type="text" placeholder="Search" />
+		  </div>
+		  </div>
+       
+		 
+ </div>
+ 
+ <div class="clear"></div>
+ 
+ <div class="intro">
+ <a name="intro"> </a>
+ <div class="titlebox">
+ <h1 span class="titlemain"> SHOPIFY </h1>
+ <h4 span class="titlesec"> LETS MODIFY WITH SHOPIFY</h4>
+ <a href="#surprise" class=btn btn-white">Feeling lucky? surprise!!</a>
+ </div>
+ </div>
+ 
+  <div class="comingsoon">
+  
+ <a name="coming"> </a>
+  <div class="heading1">
+ <p > <h1 class="heading">Launching soon</h1></p>
+ </div>
+ <div class="images">
+ <div class="image1">
+ <image src="image1.jpg" />
+ 
+ </div>
+ 
+ <div class="image2">
+ <image src="image2.jpg" />
+ </div>
+ <div class="image3">
+ <image src="image3.jpg" />
+ </div>
+ <div class="image4">
+ <image src="image4.jpg" />
+ 
+ </div>
+ </div>
+ <div class="para">
+ <p>This is what we have for you in upcoming</br>future.We bring you everything from advanced </br>gadgets to modern clothes.</br>
+ We also have items of daily needs</br>and most uniquely cool items for your kids</br>so they can have thier unique identity </br>
+ and hence making SHOPIFY one stop solution</br> for all your needs. </p>
+ </div>
+  </div>
+  
+  <div class="surprise" id="surprise">
+   <a name="surprise"> </a>
+
+  <div class="headings">
+ <p > <h1 >SURPRISE</h1></p>
+ <p> <h3 >OFFERS ENDING SOON...</h3></p>
+ </div>
+ <div class="cards">
+ <div class="card1">
+ <div class="card_front card_1front">
+ <image src="download.jpg" />
+ </div>
+ <div class="card_back card_1back" >
+ we are here for u
+ <a href="#popup" class="btn" id="tcbtn">T c</a>
+ </div>
+ </div>
+ <div class="card2">
+  <div class="card_front card_2front">
+ <image src="download1.jpg" />
+ </div>
+  <div class="card_back card_2back" >
+ we are here for u
+ <a href="#popup" class="btn" id="tcbtn">T c</a>
+ </div>
+ </div>
+  <div class="card3">
+  <div class="card_front card_3front">
+ <image src="download2.jpg" />
+ </div>
+  <div class="card_back card_3back" >
+ we are here for u
+ <a href="#popup" class="btn" id="tcbtn">T c</a>
+ </div>
+ </div>
+  </div>
+  </div>
+      <div class="popup" id="popup">
+ <div class="popupcontents">
+ <h2> Terms and conditions:-</h2>
+ <ol>
+ <li>Offer valid only for limited period of time </li>
+ <li> Offer not available for COD users</li>
+ <li>offer valid only for delievery in selected cities</li>
+ <li>To avail the offer you must apply coupan code while purchasing </li>
+ <li>In any kind of dispute,decision of SHOPIFY will be final and all customers are bind to follow it </li>
+<a href="#surprise" class="popupclose">&times;</a>
+ </ol>
+ </div>
+ </div>
+ 
+ <div class="freqbought">
+   <a name="freqbought"> </a>
+
+  <div class="headings mbiheading">
+ <p> <h1>MOST BOUGHT ITEMS</h1></p> 
+ </div>
+ <div class="mbimages">
+ 
+ <div class="gallery">
+ <image src="mbi.jpg" />
+ <div class="dec">SPARX footwear
+ </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></div>
+ </div>
+ <div class="gallery">
+  <image src="mbi1.jpg" />
+   <div class="dec">SONATA 138x watch</br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></div>
+ </div>
+ <div class="gallery">
+   <image src="mbi2.jpg" />
+ <div class="dec"> SONY 32 inch full HD TV
+ </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></div>
+  </div>
+  <div class="gallery">
+    <image src="mbi3.jpg"  />
+     <div class="dec">REALME air-buds
+	 </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></div>
+</div>	
+    <div class="gallery">
+	<image src="mbi4.jpg"  />
+	 <div class="dec">PONDS white beauty
+	 </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></div>
+	 </div>
+	 <div class="gallery">
+	  <image src="mbi5.jpg"  />
+	  <div class="dec">Apple ipad
+	  </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></div>
+	  </div>
+	  <div class="gallery">
+	   <image src="mbi6.jpg"  />
+	   <div class="dec">HP business laptop
+	   </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></div>
+	   </div>
+	   <div class="gallery">
+	    <image src="mbi7.jpg" />
+		<div class="dec">ONE PLUS 8 PRO
+		</br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></div>
+		</div>
+		<div class="gallery">
+		 <image src="mbi8.jpg" />
+		 <div class="dec">TIDE 2kg
+		 </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></div>
+		 </div>
+		 <div class="gallery">
+		  <image src="mbi9.jpg" />
+		  <div class="dec">Ladies purse
+		  </br>
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></div>
+		  </div>
+</div>		  
+ 
+ </div>
+ 
+ 
+  
+  
+</body>
+</html>
